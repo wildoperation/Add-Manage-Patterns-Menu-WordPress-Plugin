@@ -1,6 +1,6 @@
 {
 	"require": {
-		"wildoperation/wp-plugin-review-bug": "dev-develop",
+		"wildoperation/wp-plugin-review-bug": "dev-master",
 		"typisttech/imposter-plugin": "^0.6.2"
 	},
 	"extra": {

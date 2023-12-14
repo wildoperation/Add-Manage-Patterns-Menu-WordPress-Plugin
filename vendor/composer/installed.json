@@ -182,8 +182,8 @@
         },
         {
             "name": "wildoperation/wp-plugin-review-bug",
-            "version": "dev-develop",
-            "version_normalized": "dev-develop",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wildoperation/wp-plugin-review-bug.git",
@@ -196,6 +196,7 @@
                 "shasum": ""
             },
             "time": "2023-12-14T16:28:16+00:00",
+            "default-branch": true,
             "type": "library",
             "installation-source": "dist",
             "autoload": {
