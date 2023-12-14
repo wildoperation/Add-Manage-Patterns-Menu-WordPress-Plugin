@@ -1,6 +1,6 @@
 === Add Manage Patterns WordPress Menu ===
 Contributors: wildoperation, timstl
-Tags: patterns, menu, 
+Tags: patterns, menu, appearance, blocks, admin
 Requires at least: 5.0
 Tested up to: 6.4
 Stable tag: 1.0.0
