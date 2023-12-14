@@ -16,8 +16,6 @@
  * @version 1.0.0
  */
 
-namespace WOAMPM;
-
 /* Abort! */
 if ( ! defined( 'WPINC' ) ) {
 	die;
