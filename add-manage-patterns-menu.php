@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Add Manage Patterns Menu
- * Plugin URI:      https://wildoperation.com
+ * Plugin URI:      https://github.com/wildoperation/Add-Manage-Patterns-Menu-WordPress-Plugin
  * Description:     Creates a 'Manage Patterns' menu item under the Appearance menu.
  * Version:         1.0.0
  * Author:          Wild Operation
@@ -35,9 +35,9 @@ add_action(
 	function () {
 		add_submenu_page(
 			'themes.php',
-			apply_filters( 'addmp_page_title', 'Patterns' ),
-			apply_filters( 'addmp_menu_title', 'Manage Patterns' ),
-			apply_filters( 'addmp_menu_capability', 'edit_posts' ),
+			apply_filters( 'woaddmp_page_title', 'Patterns' ),
+			apply_filters( 'woaddmp_menu_title', 'Manage Patterns' ),
+			apply_filters( 'woaddmp_menu_capability', 'edit_posts' ),
 			'edit.php?post_type=wp_block'
 		);
 	}
