@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => '8e1eea76e0b82fefd1d790edfe82c9f1ce04d9f0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => '8e1eea76e0b82fefd1d790edfe82c9f1ce04d9f0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -37,21 +37,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'wildoperation/wo-log' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'abd9ce9de7b4e632af553dbff35f720dfd610143',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../wildoperation/wo-log',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'dev_requirement' => false,
-        ),
         'wildoperation/wp-plugin-review-bug' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
-            'reference' => 'e6b06bfca2f6fd76332d28cf1df0acc5500f6091',
+            'reference' => '65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wildoperation/wp-plugin-review-bug',
             'aliases' => array(),

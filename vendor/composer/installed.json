@@ -181,59 +181,21 @@
             "install-path": "../typisttech/imposter-plugin"
         },
         {
-            "name": "wildoperation/wo-log",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wildoperation/wo-log.git",
-                "reference": "abd9ce9de7b4e632af553dbff35f720dfd610143"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wildoperation/wo-log/zipball/abd9ce9de7b4e632af553dbff35f720dfd610143",
-                "reference": "abd9ce9de7b4e632af553dbff35f720dfd610143",
-                "shasum": ""
-            },
-            "time": "2023-12-14T13:51:02+00:00",
-            "default-branch": true,
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "files": [
-                    "./wo-log.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Simple logging function for use in WordPress plugins and themes.",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/wildoperation/wo-log/issues",
-                "source": "https://github.com/wildoperation/wo-log/tree/master"
-            },
-            "install-path": "../wildoperation/wo-log"
-        },
-        {
             "name": "wildoperation/wp-plugin-review-bug",
             "version": "dev-develop",
             "version_normalized": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wildoperation/wp-plugin-review-bug.git",
-                "reference": "e6b06bfca2f6fd76332d28cf1df0acc5500f6091"
+                "reference": "65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/e6b06bfca2f6fd76332d28cf1df0acc5500f6091",
-                "reference": "e6b06bfca2f6fd76332d28cf1df0acc5500f6091",
+                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f",
+                "reference": "65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f",
                 "shasum": ""
             },
-            "time": "2023-12-14T15:51:43+00:00",
+            "time": "2023-12-14T16:28:16+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {

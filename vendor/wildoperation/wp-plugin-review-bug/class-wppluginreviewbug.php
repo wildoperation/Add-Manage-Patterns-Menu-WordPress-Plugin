@@ -1,6 +1,6 @@
 <?php
 /**
- * Version 1.0.0
+ * Version 1.0.1
  *
  * Update Namespace to avoid plugin conflicts.
  *
@@ -292,7 +292,11 @@ class WPPluginReviewBug {
 	}
 
 	private function action_string() {
-		return str_replace( '-', '_', $this->nonce_string() );
+		return str_replace(
+			'-',
+			'_',
+			$this->prefix . '_' . $this->slug
+		);
 	}
 
 	public function notice_script() {
@@ -318,7 +322,6 @@ class WPPluginReviewBug {
 						security: '<?php echo esc_html_e( $ajax_nonce ); ?>',
 						action_performed: this_action,
 					};
-					console.log(data);
 
 					$.post( '<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>', data, function( response ) {
 						close_wowprcv_notice($actions.closest('.notice'));
@@ -336,7 +339,6 @@ class WPPluginReviewBug {
 				} );
 
 				$actions.closest('.notice').on('click', '.notice-dismiss', function(){
-					console.log('dismissed');
 					wowprcv_post_data($(this), 'worb-later');
 				});
 

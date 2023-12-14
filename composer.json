@@ -1,8 +1,7 @@
 {
 	"require": {
 		"wildoperation/wp-plugin-review-bug": "dev-develop",
-		"typisttech/imposter-plugin": "^0.6.2",
-		"wildoperation/wo-log": "dev-master"
+		"typisttech/imposter-plugin": "^0.6.2"
 	},
 	"extra": {
 		"imposter": {

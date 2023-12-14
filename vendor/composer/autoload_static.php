@@ -7,7 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInitbfc2b19df8001c6f2a2b3d57ec53972c
 {
     public static $files = array (
-        'd0875a7daefd8e1a7c9c75d8f573829e' => __DIR__ . '/..' . '/wildoperation/wo-log/wo-log.php',
         '23084107b6d1f20643b63bd5e97de6aa' => __DIR__ . '/..' . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
     );
 
