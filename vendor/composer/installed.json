@@ -187,15 +187,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wildoperation/wp-plugin-review-bug.git",
-                "reference": "65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f"
+                "reference": "83244e2d88b1754b7ee197363ff93e324c2cd162"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f",
-                "reference": "65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f",
+                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/83244e2d88b1754b7ee197363ff93e324c2cd162",
+                "reference": "83244e2d88b1754b7ee197363ff93e324c2cd162",
                 "shasum": ""
             },
-            "time": "2023-12-14T16:28:16+00:00",
+            "time": "2024-03-19T11:51:39+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
