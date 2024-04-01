@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Add Manage Patterns Menu
- * Plugin URI:      https://github.com/wildoperation/Add-Manage-Patterns-Menu-WordPress-Plugin
+ * Plugin URI:      https://wordpress.org/plugins/add-manage-patterns-menu
  * Description:     Creates a 'Manage Patterns' menu item under the Appearance menu.
  * Version:         1.0.1
  * Author:          Wild Operation
