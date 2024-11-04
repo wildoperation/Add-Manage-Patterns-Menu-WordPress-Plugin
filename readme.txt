@@ -2,9 +2,9 @@
 Contributors: wildoperation, timstl
 Tags: patterns, menu, appearance, blocks, admin
 Requires at least: 5.0
-Tested up to: 6.6
-Stable tag: 1.0.1
-Requires PHP: 7.3
+Tested up to: 6.7
+Stable tag: 1.0.2
+Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,6 +19,8 @@ This plugin doesn't provide functionality for managing Patterns. Instead, it pro
 No settings. Just enable the plugin, and the menu item will be added.
 
 == Changelog ==
+= 1.0.2 =
+* WordPress 6.7 support
 
 = 1.0.1 =
 * Fix missing translation functions
